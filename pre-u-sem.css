@@ -1,0 +1,26 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0px;
+}
+
+a {
+    margin-inline: 40px;
+    background-color: tan;
+    padding: 5px;
+    position: relative;
+}
+
+.header {
+    background-color: plum;
+    color: rgb(239, 250, 22);
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    padding: 10px;
+}
+
+.footer {
+    background-color: azure;
+    margin-bottom: 0px;
+    padding: 5px;
+}
