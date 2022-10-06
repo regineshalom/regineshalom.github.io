@@ -2,3 +2,13 @@
     background-color: plum;
     color: goldenrod;
 }
+
+.portrait {
+    width: 50px;
+    height: auto;
+}
+
+.col-img {
+    width: 30px;
+    height: auto;
+}
