@@ -1,6 +1,6 @@
 body {
-    background-color: blanchedalmond;
-    margin: 0px;
+    background-color: azure;
+    margin: 0;
 }
 
 a {
@@ -19,6 +19,12 @@ a {
     padding: 10px;
 }
 
+.narcissist {
+    color: gold;
+    font-size: larger;
+    text-align: center;
+}
+
 .main {
     width: 70%;
     display: block;
@@ -27,16 +33,16 @@ a {
     margin-top: 20px;
     padding: 5px;
     border-radius: 15px;
+    margin-bottom: 50px;
 }
 
 .first {
-    background-color: darkorchid;
     padding: 10px;
     margin: auto;
 }
 
 .portrait {
-    width: 200px;
+    width: 400px;
     height: auto;
     display: block;
     margin: auto;
@@ -46,37 +52,31 @@ a {
 .col-img {
     display: flex;
     margin: auto;
-    justify-content: space-between;
+    justify-content: center;
     background-color: burlywood;
     padding: 20px;
-    max-width: 100%;
+    max-width: 90%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.pain1 {
+    margin: 15px;
+    height: auto;
+    max-width: 450px;
+}
+
+.pain2 {
+    max-width: 50%;
     height: auto;
 }
 
-.pain {
-    width: 400px;
-    margin: 5px;
-    max-width: 100%;
-    height: auto;
-}
-
-.row {
-    border: 2px solid pink;
-    border-radius: 10px;
-    width: 400px;
-    margin: 30px;
+p {
     padding: 10px;
-    background-color: rgb(245, 215, 218);
-}
-
-.c-container {
-    display: flex;
-    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 50px;
-}
-
-td {
-    padding: 2px
 }
 
 .footer {
