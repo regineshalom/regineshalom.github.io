@@ -1,6 +1,38 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0px;
+}
+
+a {
+    margin-inline: 40px;
+    background-color: tan;
+    padding: 5px;
+    position: relative;
+}
+
 .header {
     background-color: plum;
-    color: goldenrod;
+    color: rgb(239, 250, 22);
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    padding: 10px;
+}
+
+.main {
+    width: 70%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.first {
+    background-color: darkorchid;
+    padding: 10px;
+    margin: auto;
 }
 
 .portrait {
@@ -8,11 +40,47 @@
     height: auto;
     display: block;
     margin: auto;
+    max-width: 100%;
 }
 
 .col-img {
-    width: 80px;
-    height: auto;
-    display: block;
+    display: flex;
     margin: auto;
+    justify-content: space-between;
+    background-color: burlywood;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.pain {
+    width: 400px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    border: 2px solid pink;
+    border-radius: 10px;
+    width: 400px;
+    margin: 30px;
+    padding: 10px;
+    background-color: rgb(245, 215, 218);
+}
+
+.c-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+td {
+    padding: 2px
+}
+
+.footer {
+    background-color: azure;
+    margin-bottom: 0px;
+    padding: 5px;
 }
